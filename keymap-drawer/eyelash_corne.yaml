@@ -15,19 +15,19 @@ layers:
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-esc$$
-  - A
-  - S
-  - D
-  - F
+  - {t: A, h: A}
+  - {t: S, h: Alt+S}
+  - {t: D, h: Sft+D}
+  - {t: F, h: Ctl+F}
   - G
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
   - H
-  - J
-  - K
-  - L
-  - {t: ;, s: ':'}
+  - {t: J, h: Ctl+J}
+  - {t: K, h: Sft+K}
+  - {t: L, h: AltGr+L}
+  - {t: ;, h: Gui+;, s: ':'}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - Z
